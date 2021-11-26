@@ -1,4 +1,4 @@
-## This is a simple Catalogue-Management-Application built in React.js.
+## This is a simple Catalogue-Management-Application built in React JS.
 
 ### Steps to run the project
 1. Download the zip file of this application from the above green button "code".
