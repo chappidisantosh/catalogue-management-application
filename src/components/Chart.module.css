@@ -1,0 +1,49 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.overlay .close {
+  height: auto;
+  width: 90%;
+}
+
+.close span {
+  float: right;
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+
+.chart {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* RESPONSIVE-------------------------------------- */
+
+@media (max-width: 900px) {
+  .chart {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 75%;
+  }
+}
